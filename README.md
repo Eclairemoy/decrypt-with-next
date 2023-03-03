@@ -1,6 +1,6 @@
 ## Encrypt and Decrypt Strings with Evervault Functions and Node.js
 
-This is an example of how you can encrypt a string from a text input, encrypt the string, and decrypt it using a serverless function.
+This is an example of how you can encrypt a string from a text input and decrypt it using a serverless function.
 
 In this demo you will use the Evervault React SDK to encrypt a string of text. Then you will decrypt that string and send it back to the client. Be careful about what you decrypt!
 
