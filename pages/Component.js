@@ -45,15 +45,15 @@ export default function Component() {
     return (
         <>
             <div>
-            <form onSubmit={handleEncrypt}>
-                <label htmlFor="name">Name</label>
-                <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
-                <button type="submit">Encrypt</button>
-            </form>
+                <form onSubmit={handleEncrypt}>
+                    <label htmlFor="name">Name</label>
+                    <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
+                    <button type="submit">Encrypt</button>
+                </form>
             </div>
             <div>
-            <div id="decrypt"></div>
-            <button onClick={handleDecrypt}>Decrypt</button>
+                <div id="decrypt"></div>
+                <button onClick={handleDecrypt}>Decrypt</button>
             </div>
         </>
     )
